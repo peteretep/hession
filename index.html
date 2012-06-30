@@ -9,13 +9,98 @@
  
 $(document).ready(function(){
  
-        $(".slidingDiv").hide();
-        $(".show_hide").show();
- 
-    $('.show_hide').click(function(){
-    $(".slidingDiv").slideToggle();
+<!--      $("#paint").show();-->
+<!--      $("#repair").show();-->
+<!--      $("#build").show();-->
+<!--      $("#weld").show();-->
+<!--      -->
+      $("#paint_details").hide();
+      
+     
+<!--paint -->
+
+    $('#paint').click(function()
+    {
+      $("#paint").toggle();
+      $("#paint_details").toggle();
+      $("#build").toggle();
+      $("#repair").toggle();
+      $("#weld").toggle();
     });
- 
+    
+    $('#hide_paint').click(function()
+    {
+      $("#paint_details").toggle();
+      
+      $("#paint").toggle();
+      $("#build").toggle();
+      $("#repair").toggle();
+      $("#weld").toggle();
+    });
+    
+<!--Repair-->
+
+    $('#repair').click(function()
+    {
+      $("#repair_details").toggle();
+      
+      $("#paint").toggle();
+      $("#build").toggle();
+      $("#repair").toggle();
+      $("#weld").toggle();
+    });
+    
+    $('#hide_repair').click(function()
+    {
+      $("#repair_details").toggle();
+      
+      $("#paint").toggle();
+      $("#build").toggle();
+      $("#repair").toggle();
+      $("#weld").toggle();
+    });
+    
+<!--  Build  -->
+    $('#build').click(function()
+    {
+      $("#build_details").toggle();
+      
+      $("#paint").toggle();
+      $("#build").toggle();
+      $("#repair").toggle();
+      $("#weld").toggle();
+    });
+    
+    $('#hide_build').click(function()
+    {
+      $("#build_details").toggle();
+      
+      $("#paint").toggle();
+      $("#build").toggle();
+      $("#repair").toggle();
+      $("#weld").toggle();
+    });
+    
+<!--Weld-->
+    $('#weld').click(function()
+    {
+      $("#weld_details").toggle();
+      
+      $("#paint").toggle();
+      $("#build").toggle();
+      $("#repair").toggle();
+      $("#weld").toggle();
+    });
+    
+    $('#hide_weld').click(function()
+    {
+      $("#weld_details").toggle();
+      
+      $("#paint").toggle();
+      $("#build").toggle();
+      $("#repair").toggle();
+      $("#weld").toggle();
+    });
 });
  
 </script>
@@ -30,34 +115,33 @@ $(document).ready(function(){
     header image here
   </div>
   
-  <div id="paint">
-    <a href="#" <div class ="show_hide">Paint </a>
-  </div>
-  <div class="slidingDiv">
-      Paint text
-      <a href="#" class="show_hide">hide</a>
-    </div>
-  
-  
-  <div id="repair">
-    Repair
-    <div class="cat_text">
-      Repair text
-    </div>
+  <a href="#" <div id="paint"> Paint </a>
+ 
+  <div class="hidden" id="paint_details">
+  <a href="#" <div id="hide_paint"> Back </a>
+    Paint Details
   </div>
   
-  <div id="build">
-    Build
-    <div class="cat_text">
-      Build text
-    </div>
+  
+  <a href="#" <div id="repair"> Repair </a>
+ 
+  <div class="hidden" id="repair_details">
+  <a href="#" <div id="hide_repair"> Back </a>
+    Repair Details
   </div>
   
-  <div id="weld">
-    weld
-     <div class="cat_text">
-      Weld text
-    </div>
+  <a href="#" <div id="build"> Build </a>
+ 
+  <div class="hidden" id="build_details">
+  <a href="#" <div id="hide_build"> Back </a>
+    Build Details
+  </div>
+  
+    <a href="#" <div id="weld"> Weld </a>
+ 
+  <div class="hidden" id="weld_details">
+  <a href="#" <div id="hide_weld"> Back </a>
+    Weld Details
   </div>
 
 </div> 

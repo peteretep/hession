@@ -53,15 +53,16 @@ body
   display:none;
 }
 
-.slidingDiv {
-    height:300px;
-    width:60%;
-    background-color: #99CCFF;
-    float:right;
+.hidden
+{
+  display:none;
 }
  
-.show_hide {
-    display:none;
-/*    z-index:1;*/
+#paint_details 
+{
+    
 }
-
+#repair_details 
+{
+    
+}
