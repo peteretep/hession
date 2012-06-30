@@ -1,0 +1,67 @@
+body
+{
+  background-color:yellow;
+}
+
+#container
+{
+  height:600px;
+  width:80%;
+  margin:auto;
+  background-color:white;
+}
+
+#header
+{
+  background-color:red;
+  height:100px;
+}
+
+#paint
+{
+  width:25%;
+  float:left;
+  height:500px;
+  background-color:blue;
+}
+
+#repair
+{
+  width:25%;
+  float:left;
+  height:500px;
+  background-color:green;
+}
+#build
+{
+  width:25%;
+  float:left;
+  height:500px;
+  background-color:orange;
+}
+
+#weld
+{
+  width:25%;
+  float:left;
+  height:500px;
+  background-color:brown;
+}
+.cat_text
+{
+  float:left;
+  display:none;
+}
+
+.slidingDiv {
+    height:300px;
+    width:60%;
+    background-color: #99CCFF;
+    float:right;
+}
+ 
+.show_hide {
+    display:none;
+/*    z-index:1;*/
+}
+
