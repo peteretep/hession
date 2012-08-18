@@ -4,10 +4,7 @@
 <title> Hession Boat Services </title>
 <link rel="stylesheet" type="text/css" href="hession.css" />
 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js" type="text/javascript"></script>
-
-
+<link rel="stylesheet" type="text/css" href="javascript/lightbox/css/jquery.lightbox-0.5.css" media="screen" />
 
 </head>
 
@@ -17,7 +14,7 @@
 
     <div id="header">
        <div id="title">Hession Dinghy Services
-           <div id="subtitle"> Woodlane Timber Products</div>
+           <div id="subtitle"> by Woodlane Timber Products</div>
        </div>
 
        <div id="title_image"><img src="images/header_img.png" /></div>
@@ -34,6 +31,38 @@
       Stephen can paint or varnish any class of boat. He can collect your boat and bring it to his dust-free workshop. Depending on the condition of the existing coating, it will either be removed entirely or sanded smooth. Stephen will then begin building up coats of paint.
       <p> This process takes time and cannot be rushed. After the appropriate number of coats the coating is left to harden.
       <p> For additional grip on slippy decks, Stephen can add a special grip enhancing additive to the final coat.
+
+
+<div id="gallery">
+    <ul>
+        <li>
+            <a href="images/painting/fireball_bow_detail.jpg" title="Beautifly Varnished Fireball Deck">
+                <img src="images/painting/fireball_bow_detail_thumb.jpg" width="150" height="150" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="images/painting/fireball_varnish.jpg" title="Painted and Varnished Fireball. Note the non-slip deck along the sides.">
+                <img src="images/painting/fireball_varnish_thumb.jpg" width="150" height="150" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="images/painting/gp_painted.jpg" title="A GP14 during the painting process. This boat is over 30 years old and has been given a new lease of life by a new paint job.">
+                <img src="images/painting/gp_painted_thumb.jpg" width="150" height="150" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="images/painting/yacht_before_1.jpg" title=". $('#gallery a').lightBox();">
+                <img src="images/painting/yacht_before_1_thumb.jpg" width="150" height="150" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="images/painting/yacht_after_1.jpg" title=". $('#gallery a').lightBox();">
+                <img src="images/painting/yacht_after_1_thumb.jpg" width="150" height="150" alt="" />
+            </a>
+        </li>
+    </ul>
+</div>
+
 
     </div>
 
@@ -70,7 +99,17 @@
   <div id="footer">copyright
   </div>
   </body>
-  <script type="text/javascript" src = "javascript/hession.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
 
+<script src="javascript/lightbox/js/jquery.lightbox-0.5.js" type="text/javascript"></script>
+
+    <!-- Lightbox Plugin -->
+    <script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script>
+
+  <script type="text/javascript" src = "javascript/hession.js"></script>
 
 </html>

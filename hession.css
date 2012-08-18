@@ -39,7 +39,7 @@ h1
   font-size:20px;
   float:right;
   padding-top:70px;
-  margin-left:-250px;
+  margin-left:-260px;
 }
 
 #title_image
@@ -110,3 +110,21 @@ h1
 {
 
 }
+
+
+  /* jQuery lightBox plugin - Gallery style */
+  #gallery {
+
+  }
+  #gallery ul { list-style: none; }
+  #gallery ul li { display: inline; }
+  #gallery ul img {
+    border: 5px solid #3e3e3e;
+    border-width: 5px 5px 5px;
+  }
+  #gallery ul a:hover img {
+    border: 5px solid #fff;
+    border-width: 5px 5px 5px;
+    color: #fff;
+  }
+  #gallery ul a:hover { color: #fff; }
