@@ -10,11 +10,16 @@ h1
   font:sans-serif;
   margin:auto;
   pdding-left:30px;
+}
 
+a
+{
+  text-decoration: none;
 }
 #container
 {
   height:650px;
+  max-width: 1500px;
   width:90%;
   margin:auto;
   background-color:white;
@@ -28,6 +33,7 @@ h1
 
 #title
 {
+  width:670px;
   font-size: 60px;
   padding-top: 30px;
   padding-left:30px;
@@ -37,20 +43,19 @@ h1
 #subtitle
 {
   font-size:20px;
-  float:right;
-  padding-top:70px;
-  margin-left:-260px;
+  float:left;
 }
 
 #title_image
 {
   float:right;
   height:150px;
+  width: 450px;
 }
 
 #footer
 {
-
+  max-width: 1500px;
   width:90%;
   margin:auto;
   background-color:white;
@@ -58,43 +63,66 @@ h1
 
 .leftbar
 {
+  max-width: 375px;
   width:25%;
   float:left;
   height:500px;
-  background-color:#b1b1b1;
 }
 #paint
 {
-  width:25%;
+  background-image: url('images/paint.jpg');
+  background-size:100% 100%;
+  background-repeat:no-repeat;
   float:left;
-  height:500px;
 }
 
 #repair
 {
-  width:25%;
+  background-image: url('images/repair.jpg');
+  background-size:100% 100%;
+  background-repeat:no-repeat;
   float:left;
   height:500px;
 }
 
 #build
 {
-  width:25%;
+  background-image: url('images/build.jpg');
+  background-size:100% 100%;
+  background-repeat:no-repeat;
   float:left;
   height:500px;
 }
 
 #weld
 {
-  width:25%;
+  background-image: url('images/weld.jpg');
+  background-size:100% 100%;
+  background-repeat:no-repeat;
   float:left;
   height:500px;
 }
 
+.cat_button
+{
+  border-radius: 5px;
+  background-color: white;
+  width:90%;
+  height:40px;
+  position:relative;
+  margin:auto;
+  margin-top:65%;
+  color:black;
+  font-size: 30px;
+  text-align: center;
+  border-style:solid;
+  border-width:thick;
+}
 .cat_text
 {
-  float:left;
-  display:none;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .hidden
