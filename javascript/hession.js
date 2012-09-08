@@ -94,3 +94,6 @@ $(document).ready(function(){
       $("#weld").toggle();
     });
 });
+  $('.leftbar').dblclick(function(e){
+    e.preventDefault();
+})

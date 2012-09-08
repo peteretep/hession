@@ -159,21 +159,21 @@ a
 
 
 /* jQuery lightBox plugin - Gallery style */
-#gallery {
+.gallery {
 
 }
-#gallery ul { list-style: none; }
-#gallery ul li { display: inline; }
-#gallery ul img {
+.gallery ul { list-style: none; }
+.gallery ul li { display: inline; }
+.gallery ul img {
   border: 5px solid #3e3e3e;
   border-width: 5px 5px 5px;
 }
-#gallery ul a:hover img {
+.gallery ul a:hover img {
   border: 5px solid #fff;
   border-width: 5px 5px 5px;
   color: #fff;
 }
-#gallery ul a:hover { color: #fff; }
+.gallery ul a:hover { color: #fff; }
 
 /* Arrow Box */
 .arrow_box
